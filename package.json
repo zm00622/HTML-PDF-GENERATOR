@@ -1,0 +1,17 @@
+{
+  "name": "HTML-PDF-GENERATOR",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:table": "node ./createTable.js",
+    "build:pdf": "node ./createPdf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^19.9.1"
+  }
+}
